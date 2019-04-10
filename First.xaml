@@ -1,0 +1,32 @@
+﻿<Window x:Class="ENUPRRESH.First"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ENUPRRESH"
+        mc:Ignorable="d"
+        Title="First" Height="450" Width="800">
+    <Grid>
+        <TextBox x:Name="month1" HorizontalAlignment="Left" Height="23" Margin="153,107,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="month2" HorizontalAlignment="Left" Height="23" Margin="153,148,0,0" TextWrapping="Wrap" Text=" " VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="month3" HorizontalAlignment="Left" Height="23" Margin="153,193,0,0" TextWrapping="Wrap" Text=" " VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="month4" HorizontalAlignment="Left" Height="23" Margin="153,240,0,0" TextWrapping="Wrap" Text=" " VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="vvod1" HorizontalAlignment="Left" Height="23" Margin="350,107,0,0" TextWrapping="Wrap" Text=" " VerticalAlignment="Top" Width="76"/>
+        <TextBox x:Name="vvod2" HorizontalAlignment="Left" Height="23" Margin="350,148,0,0" TextWrapping="Wrap" Text=" " VerticalAlignment="Top" Width="76"/>
+        <TextBox x:Name="vvod3" HorizontalAlignment="Left" Height="23" Margin="350,193,0,0" TextWrapping="Wrap" Text=" " VerticalAlignment="Top" Width="76"/>
+        <TextBox x:Name="vvod4" HorizontalAlignment="Left" Height="23" Margin="350,240,0,0" TextWrapping="Wrap" Text=" " VerticalAlignment="Top" Width="76"/>
+        <Label Content="Месяц (номер)" HorizontalAlignment="Left" Margin="153,50,0,0" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Ввод" HorizontalAlignment="Left" Margin="350,50,0,0" VerticalAlignment="Top" Width="76"/>
+        <TextBox x:Name="vyvod1" HorizontalAlignment="Left" Height="23" Margin="480,107,0,0" TextWrapping="Wrap" Text=" " VerticalAlignment="Top" Width="72"/>
+        <TextBox x:Name="vyvod2" HorizontalAlignment="Left" Height="23" Margin="480,148,0,0" TextWrapping="Wrap" Text=" " VerticalAlignment="Top" Width="72"/>
+        <TextBox x:Name="vyvod3" HorizontalAlignment="Left" Height="23" Margin="480,193,0,0" TextWrapping="Wrap" Text=" " VerticalAlignment="Top" Width="72"/>
+        <TextBox x:Name="vyvod4" HorizontalAlignment="Left" Height="23" Margin="480,240,0,0" TextWrapping="Wrap" Text=" " VerticalAlignment="Top" Width="72"/>
+        <Label Content="Вывод" HorizontalAlignment="Left" Margin="480,50,0,0" VerticalAlignment="Top" Width="72"/>
+        <TextBox x:Name="m" HorizontalAlignment="Left" Height="23" Margin="432,289,0,0" TextWrapping="Wrap" Text=" " VerticalAlignment="Top" Width="120"/>
+        <Label Content="Среднегодовая производственная мощность" HorizontalAlignment="Left" Margin="153,286,0,0" VerticalAlignment="Top" Width="265"/>
+        <Label Content="Результат" HorizontalAlignment="Left" Margin="350,330,0,0" VerticalAlignment="Top" Width="68"/>
+        <TextBox x:Name="res" HorizontalAlignment="Left" Height="23" Margin="432,330,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="enter" Content="Считать" HorizontalAlignment="Left" Margin="599,315,0,0" VerticalAlignment="Top" Width="75" Click="Enter_Click"/>
+
+    </Grid>
+</Window>

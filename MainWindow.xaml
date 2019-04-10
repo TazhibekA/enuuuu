@@ -1,0 +1,28 @@
+﻿<Window x:Class="ENUPRRESH.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ENUPRRESH"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="first" Content="Открыть прак.задание" HorizontalAlignment="Left" Margin="542,20,0,0" VerticalAlignment="Top" Width="143" Click="Button_Click"/>
+        <Button x:Name="second" Content="Открыть прак.задание" HorizontalAlignment="Left" Margin="542,51,0,0" VerticalAlignment="Top" Width="143" Click="Second_Click"/>
+        <Button x:Name="third" Content="Открыть прак.задание" HorizontalAlignment="Left" Margin="542,82,0,0" VerticalAlignment="Top" Width="143" Click="Third_Click"/>
+        <Button x:Name="fourth" Content="Открыть прак.задание" HorizontalAlignment="Left" Margin="542,113,0,0" VerticalAlignment="Top" Width="143" Click="Fourth_Click"/>
+        <Label Content="5. Издержки производства и обращения" HorizontalAlignment="Left" Margin="152,141,0,0" VerticalAlignment="Top"/>
+        <Label Content="4. Оборотные средства" HorizontalAlignment="Left" Margin="152,110,0,0" VerticalAlignment="Top"/>
+        <Label Content="3. Основные производственные фонды (ОПФ)" HorizontalAlignment="Left" Margin="152,79,0,0" VerticalAlignment="Top" Width="288"/>
+        <Label Content="1. УПРАВЛЕНЧЕСКИЕ РЕШЕНИЯ В СФЕРЕ ПРОИЗВОДСТВА" HorizontalAlignment="Left" Margin="152,17,0,0" VerticalAlignment="Top"/>
+        <Label Content="2. Принятие решений в условиях неопределенности и риска." HorizontalAlignment="Left" Margin="152,48,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="fifth" Content="Открыть прак.задание" HorizontalAlignment="Left" Margin="542,144,0,0" VerticalAlignment="Top" Width="143" Click="Fifth_Click"/>
+        <Label Content="6. Прибыль и рентабельность" HorizontalAlignment="Left" Margin="152,172,0,0" VerticalAlignment="Top" Width="347"/>
+        <Label Content="7. Виды продукции на предприятии" HorizontalAlignment="Left" Margin="152,203,0,0" VerticalAlignment="Top" Width="235"/>
+        <Label Content="Label" HorizontalAlignment="Left" Margin="152,234,0,0" VerticalAlignment="Top" Width="235"/>
+        <Button x:Name="sixth" Content="Открыть прак.задание" HorizontalAlignment="Left" Margin="542,175,0,0" VerticalAlignment="Top" Width="143" Click="Sixth_Click"/>
+        <Button x:Name="seventh" Content="Открыть прак.задание" HorizontalAlignment="Left" Margin="542,206,0,0" VerticalAlignment="Top" Width="143" Click="Seventh_Click"/>
+        <Button x:Name="eighth" Content="Открыть прак.задание" HorizontalAlignment="Left" Margin="542,237,0,0" VerticalAlignment="Top" Width="143"/>
+
+    </Grid>
+</Window>
